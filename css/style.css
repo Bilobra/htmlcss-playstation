@@ -73,6 +73,19 @@ body{
     border-radius: 15px;
 }
 
+/* PLAYSTATION5 */
+
+.font_size_12{
+    font-size: 12px;
+    font-weight: 500;
+}
+.fs_36{
+    font-size: 36px;
+    font-weight: 500;
+}
+.text_blue{
+    color: blue;
+}
 
 /* MEDIA QUERY  */
 /*jumbo */
@@ -80,6 +93,10 @@ body{
     .col_xs{
         flex: 0 0 auto !important;
         width: 50% !important;
+    }
+    .col_xs_2{
+        flex: 0 0 auto !important;
+        width: 100% !important;
     }
 }
 
