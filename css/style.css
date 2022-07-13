@@ -6,7 +6,7 @@
 }
 /* regole FONT */
 body{
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif !important; 
 }
 
 /* CONTAINERS rules */
@@ -63,7 +63,24 @@ body{
     font-size:15px;
 }
 
-/* img width */
+/* IMG JUMBO TOP*/
 #returnal_img_w{
     width:55%;
 }
+
+/* IMG JUMBO SLIDER */
+.img_rounded_slider{
+    border-radius: 15px;
+}
+
+
+/* MEDIA QUERY  */
+/*jumbo */
+@media(max-width:575px){
+    .col_xs{
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+}
+
+/* fine media query */
