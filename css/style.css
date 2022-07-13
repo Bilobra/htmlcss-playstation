@@ -43,6 +43,16 @@ body{
     border-bottom:2px solid #0072ce !important;
 }
 
+.display_none{
+    opacity: 75%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.display_none:hover{
+    opacity: 100%;
+}
+
 
 /* Header rules */
 
@@ -69,7 +79,7 @@ body{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
-    margin-top: 80px;
+    margin-top: 100px;
     height: 585px;
     color: white;
     
