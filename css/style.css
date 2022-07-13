@@ -1,11 +1,69 @@
 /* font-family: 'Montserrat', sans-serif; */
+/* var color */
+:root{
+    --orange:#CD4215;
+
+}
+/* regole FONT */
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* CONTAINERS rules */
+
+/* jumbo */
+.container_h100{
+    height: 100%;
+}
+
+
+/* BUTTON RULES */
+
+.btn_orange{
+    background-color:var(--orange) !important;
+    color: white !important;
+}
 
 
 /* Header rules */
+
+/* navbar */
+#main_header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
 
 /* bar  TOP */
 
 #top_bar_sony{
     background-color:black;
     padding: 0.5rem;
+}
+
+
+/* MAIN rules */
+/* jumbo section */
+#jumbo{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    height: 585px;
+    color: white;
+    
+}
+.row_1{
+    height: 100%;
+}
+
+#jumbo p{
+    font-size:15px;
+}
+
+/* img width */
+#returnal_img_w{
+    width:55%;
 }
