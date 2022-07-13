@@ -1,13 +1,20 @@
-/* font-family: 'Montserrat', sans-serif; */
+
 /* var color */
 :root{
     --orange:#CD4215;
 
 }
+
+
+
 /* regole FONT */
 body{
     font-family: 'Montserrat', sans-serif !important; 
 }
+
+
+
+
 
 /* CONTAINERS rules */
 
@@ -17,11 +24,23 @@ body{
 }
 
 
+
+
+
 /* BUTTON RULES */
 
 .btn_orange{
     background-color:var(--orange) !important;
     color: white !important;
+}
+
+/* active / hover */
+.active{
+    border: 2px solid #0072ce;
+    padding: 3px;
+}
+#playstation_5 .active_bt{
+    border-bottom:2px solid #0072ce !important;
 }
 
 
