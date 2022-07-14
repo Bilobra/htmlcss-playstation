@@ -2,6 +2,7 @@
 /* var color */
 :root{
     --orange:#CD4215;
+    --gray:#3B3B3B;
 
 }
 
@@ -29,9 +30,18 @@ body{
 
 /* BUTTON RULES */
 
+
+
 .btn_orange{
     background-color:var(--orange) !important;
     color: white !important;
+}
+#btn_gray{
+    background-color: var(--gray);
+    color: white;
+}
+#btn_gray:hover{
+    background-color: black;
 }
 
 /* active / hover */
@@ -71,7 +81,24 @@ body{
     background-color:black;
     padding: 0.5rem;
 }
+/* nav bar dropdown */
 
+a.dropdown-toggle::after{
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+    
+}
+a.dropdown-toggle{
+    display:flex ;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+#main_header a.nav-link{
+    color: black;
+}
 
 /* MAIN rules */
 /* jumbo section */
