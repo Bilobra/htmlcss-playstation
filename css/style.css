@@ -15,7 +15,17 @@ body{
 h3{
     font-weight: 700;
 }
-
+.font_size_12{
+    font-size: 16px;
+    font-weight: 500;
+}
+.fs_36{
+    font-size: 28px;
+    font-weight: 500;
+}
+.text_blue{
+    color: blue;
+}
 
 
 
@@ -133,17 +143,7 @@ a.dropdown-toggle{
 
 /* PLAYSTATION5 */
 
-.font_size_12{
-    font-size: 12px;
-    font-weight: 500;
-}
-.fs_36{
-    font-size: 36px;
-    font-weight: 500;
-}
-.text_blue{
-    color: blue;
-}
+
 
 /* ADVENTURE */
 #adventure{
