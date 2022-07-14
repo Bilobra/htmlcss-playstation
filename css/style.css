@@ -8,6 +8,7 @@
     --graybutton:#D9DADC;
     --blueprimary:#2D64E6;
     --blunight:#161C3B;
+    --ciano:#00439C;
 }
 
 
@@ -199,22 +200,15 @@ a.dropdown-toggle{
     background-color:var(--blunight) ;
 }
 
+/* fine main */
+
+/* footer */
+
+footer{
+    background-color: var(--ciano);
+    color: white;
+}
 
 
 
 
-
-/* MEDIA QUERY  */
-/*jumbo */
-/* @media(max-width:575px){
-    .col_xs{
-        flex: 0 0 auto !important;
-        width: 50% !important;
-    }
-    .col_xs_2{
-        flex: 0 0 auto !important;
-        width: 100% !important;
-    }
-} */
-
-/* fine media query */
