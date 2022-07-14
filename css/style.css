@@ -3,7 +3,7 @@
 :root{
     --orange:#CD4215;
     --gray:#3B3B3B;
-
+    --darkgray:#1F1F1F;
 }
 
 
@@ -143,6 +143,19 @@ a.dropdown-toggle{
 }
 .text_blue{
     color: blue;
+}
+
+/* ADVENTURE */
+#adventure{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+}
+
+#adventure_slider{
+    background-color: var(--darkgray);
 }
 
 
