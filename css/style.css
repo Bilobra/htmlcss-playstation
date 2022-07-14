@@ -52,6 +52,12 @@ h3{
 
 /* BUTTON RULES */
 
+#playstation_now a,
+#playstation_plus a,
+#playstation_5 a {
+    line-height: 2rem;
+}
+
 
 
 a.btn_orange{
