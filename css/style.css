@@ -32,15 +32,15 @@ body{
 
 
 
-.btn_orange{
-    background-color:var(--orange) !important;
-    color: white !important;
+a.btn_orange{
+    background-color:var(--orange) ;
+    color: white ;
 }
-#btn_gray{
+a.btn_gray{
     background-color: var(--gray);
-    color: white;
+    
 }
-#btn_gray:hover{
+li a.btn_gray:hover{
     background-color: black;
 }
 
@@ -49,8 +49,8 @@ body{
     border: 2px solid #0072ce;
     padding: 3px;
 }
-#playstation_5 .active_bt{
-    border-bottom:2px solid #0072ce !important;
+#playstation_5.active_bt{
+    border-bottom:2px solid #0072ce ;
 }
 
 .display_none{
@@ -143,9 +143,15 @@ a.dropdown-toggle{
     color: blue;
 }
 
+
+
+
+
+
+
 /* MEDIA QUERY  */
 /*jumbo */
-@media(max-width:575px){
+/* @media(max-width:575px){
     .col_xs{
         flex: 0 0 auto !important;
         width: 50% !important;
@@ -154,6 +160,6 @@ a.dropdown-toggle{
         flex: 0 0 auto !important;
         width: 100% !important;
     }
-}
+} */
 
 /* fine media query */
