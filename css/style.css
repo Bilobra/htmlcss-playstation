@@ -4,6 +4,9 @@
     --orange:#CD4215;
     --gray:#3B3B3B;
     --darkgray:#1F1F1F;
+    --lightgray:#BEBCBB;
+    --graybutton:#D9DADC;
+    --blueprimary:#2D64E6;
 }
 
 
@@ -17,15 +20,20 @@ h3{
 }
 .font_size_12{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .fs_36{
     font-size: 28px;
     font-weight: 500;
 }
 .text_blue{
-    color: blue;
+    color: var(--blueprimary);
 }
+.font_size_14{
+    font-size: 14px;
+    font-weight: 600;
+}
+
 
 
 
@@ -56,7 +64,13 @@ li a.btn_gray:hover{
     background-color: black;
 }
 
-/* active / hover */
+a.graybutton_bg{
+    background-color: var(--graybutton);
+    color: var(--blueprimary);
+    font-weight: 600;
+}
+
+/* active / hover / none */
 .active{
     border: 2px solid #0072ce;
     padding: 3px;
@@ -75,7 +89,15 @@ li a.btn_gray:hover{
     opacity: 100%;
 }
 
+.img_display_none{
+    display: none;
+}
 
+@media(min-width:768px){
+    .img_display_none{
+        display: block;
+    }
+}
 /* Header rules */
 
 /* navbar */
@@ -158,6 +180,11 @@ a.dropdown-toggle{
     background-color: var(--darkgray);
 }
 
+
+/* PLAYSTATION PLUS */
+#playstation_plus .row{
+    background-color: var(--lightgray);
+}
 
 
 
