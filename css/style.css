@@ -7,6 +7,7 @@
     --lightgray:#BEBCBB;
     --graybutton:#D9DADC;
     --blueprimary:#2D64E6;
+    --blunight:#161C3B;
 }
 
 
@@ -31,8 +32,8 @@ h3{
     color: var(--blueprimary);
 }
 .font_size_14{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 
@@ -183,8 +184,13 @@ a.dropdown-toggle{
 
 
 /* PLAYSTATION PLUS */
-#playstation_plus .row{
+#playstation_plus .container_bg{
     background-color: var(--lightgray);
+}
+
+/* PLAYSTATION NOW */
+#playstation_now .container_bg{
+    background-color:var(--blunight) ;
 }
 
 
