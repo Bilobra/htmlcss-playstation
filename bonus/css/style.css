@@ -247,3 +247,26 @@ footer{
 #list_dx .dropdown-item:hover {
     background-color: transparent;
 }
+
+/* jumbo slider effects */
+#jumbo_slider col {
+    transition: all 900ms ;
+}
+
+.img_rounded_slider:hover{
+    transform: translate(0, -10%);
+    cursor: pointer;
+    
+}
+
+/* scount effects */
+#scount .container-xxl col img,
+#social .container-xxl col img{
+    transition: all 1s;
+}
+
+.img_scale:hover{
+    border: 1px solid var(--graybutton);
+    padding: 10px;
+    border-radius: 10px;
+}
