@@ -1,0 +1,219 @@
+
+/* var color */
+:root{
+    --orange:#CD4215;
+    --gray:#3B3B3B;
+    --darkgray:#1F1F1F;
+    --lightgray:#BEBCBB;
+    --graybutton:#D9DADC;
+    --blueprimary:#2D64E6;
+    --blunight:#161C3B;
+    --ciano:#00439C;
+}
+
+
+
+/* regole FONT */
+body{
+    font-family: 'Montserrat', sans-serif !important; 
+}
+h3{
+    font-weight: 700;
+   
+}
+.font_size_12{
+    font-size: 16px;
+    font-weight: 600;
+}
+.fs_36{
+    font-size: 28px;
+    font-weight: 500;
+}
+.text_blue{
+    color: var(--blueprimary);
+}
+.font_size_14{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+/* CONTAINERS rules */
+
+/* jumbo */
+.container_h100{
+    height: 100%;
+}
+
+
+
+
+
+/* BUTTON RULES */
+
+#playstation_now a,
+#playstation_plus a,
+#playstation_5 a {
+    line-height: 2rem;
+}
+
+
+
+a.btn_orange{
+    background-color:var(--orange) ;
+    color: white ;
+}
+a.btn_gray{
+    background-color: var(--gray);
+    
+}
+li a.btn_gray:hover{
+    background-color: black;
+}
+
+a.graybutton_bg{
+    background-color: var(--graybutton);
+    color: var(--blueprimary);
+    font-weight: 600;
+}
+
+/* active / hover / none */
+.active{
+    border: 2px solid #0072ce;
+    padding: 3px;
+}
+#playstation_5.active_bt{
+    border-bottom:2px solid #0072ce ;
+}
+
+.display_none{
+    opacity: 75%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.display_none:hover{
+    opacity: 100%;
+}
+
+.img_display_none{
+    display: none;
+}
+
+@media(min-width:768px){
+    .img_display_none{
+        display: block;
+    }
+}
+/* Header rules */
+
+/* navbar */
+#main_header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* bar  TOP */
+
+#top_bar_sony{
+    background-color:black;
+    padding: 0.5rem;
+}
+/* nav bar dropdown */
+
+a.dropdown-toggle::after{
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+    
+}
+a.dropdown-toggle{
+    display:flex ;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+#main_header a.nav-link{
+    color: black;
+}
+
+/* MAIN rules */
+/* jumbo section */
+#jumbo{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    height: 585px;
+    color: white;
+    
+}
+.row_1{
+    height: 100%;
+}
+
+#jumbo p{
+    font-size:15px;
+}
+
+/* IMG JUMBO TOP*/
+#returnal_img_w{
+    width:55%;
+}
+
+/* IMG JUMBO SLIDER */
+.img_rounded_slider{
+    border-radius: 15px;
+} 
+
+/* PLAYSTATION5 */
+
+
+
+/* ADVENTURE */
+#adventure{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+}
+
+#adventure_slider{
+    background-color: var(--darkgray);
+}
+
+
+/* PLAYSTATION PLUS */
+#playstation_plus .container_bg{
+    background-color: var(--lightgray);
+}
+
+/* PLAYSTATION NOW */
+#playstation_now .container_bg{
+    background-color:var(--blunight) ;
+}
+
+/* fine main */
+
+/* footer */
+
+footer{
+    background-color: var(--ciano);
+    color: white;
+    
+}
+.footer_list>li{
+    line-height: 2.2rem;
+    font-size: 16px;
+}
+
+
+
+
