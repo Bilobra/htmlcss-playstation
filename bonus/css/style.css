@@ -217,3 +217,15 @@ footer{
 
 
 
+/* BONUS */
+
+/* menu a scomparsa navbar */
+
+#list_sx >li.dropdown{
+    position: static;
+}
+.text-center_w-100{
+    text-align: center;
+    width: 100%;
+    
+}
