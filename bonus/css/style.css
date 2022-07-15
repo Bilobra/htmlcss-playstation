@@ -80,10 +80,10 @@ a.graybutton_bg{
 }
 
 /* active / hover / none */
-.active{
+/* .active{
     border: 2px solid #0072ce;
     padding: 3px;
-}
+} */
 #playstation_5.active_bt{
     border-bottom:2px solid #0072ce ;
 }
@@ -146,11 +146,11 @@ a.dropdown-toggle{
 /* MAIN rules */
 /* jumbo section */
 #jumbo{
-    background-image: url("../img/jumbo-bg.png");
+    /* background-image: url("../img/jumbo-bg.png");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     margin-top: 100px;
-    height: 585px;
+    /* height: 585px; */
     color: white;
     
 }
@@ -269,4 +269,68 @@ footer{
     border: 1px solid var(--graybutton);
     padding: 10px;
     border-radius: 10px;
+}
+
+
+
+
+/* carousel */
+#jumbo .carousel-indicators{
+    position: relative;
+    padding: 12px;
+}
+
+#jumbo .carousel-indicators [data-bs-target]{
+    text-indent: 0;
+    height: auto;
+    width: calc(100% / 2 - 6px);
+    opacity: 90%;
+    transition: all 200ms;
+}
+#jumbo .carousel-indicators [data-bs-target]:hover{
+    opacity: 100%;
+    transform: translate(0, -10%);
+}
+
+#jumbo .carousel-indicators{
+    flex-wrap: wrap;
+    margin: auto;
+}
+#jumbo .carousel-indicators img{
+    border-radius: 15px;
+}
+
+
+/* x il testo nel bg carousel */
+#jumbo .w_45perc{
+    width: 50%;
+}
+ #jumbo .carousel-caption{
+    text-align: left;
+    left: 2rem;
+    right: 1rem;
+    
+}
+
+/* media q */
+@media (min-width:576px){
+    #jumbo .carousel-indicators [data-bs-target]{
+        text-indent: 0;
+        height: auto;
+        width: calc(100% / 3 - 6px);
+    }
+}
+@media (min-width:992px){
+    #jumbo .carousel-indicators [data-bs-target]{
+        text-indent: 0;
+        height: auto;
+        width: calc(100% / 6 - 6px);
+    }
+}
+
+@media (max-width:769px){
+    .carousel-item>img{
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
 }
