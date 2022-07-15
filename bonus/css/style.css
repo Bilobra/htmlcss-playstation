@@ -221,11 +221,29 @@ footer{
 
 /* menu a scomparsa navbar */
 
-#list_sx >li.dropdown{
+#list_sx >li.dropdown,
+#list_dx >li.dropdown {
     position: static;
 }
-.text-center_w-100{
+#list_sx .text-center_w-100,
+#list_dx .text-center_w-100{
     text-align: center;
     width: 100%;
     
+}
+ #list_sx .dropdown-menu[data-bs-popper],
+ #list_dx .dropdown-menu[data-bs-popper] {
+    margin: 0;
+    background-color: white;
+    border: none;
+    
+}
+
+#list_sx a.dropdown-item img:hover,
+#list_dx a.dropdown-item img:hover {
+    box-shadow: 1px 1px 5px #adadad;
+}
+#list_sx .dropdown-item:hover,
+#list_dx .dropdown-item:hover {
+    background-color: transparent;
 }
